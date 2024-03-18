@@ -320,3 +320,55 @@ a {
 .pic1 {
   margin-top: 15px;
 }
+
+.reasons__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.reasons__pic {
+  max-width: 100%;
+}
+
+.reasons__info {
+  padding-top: 107px;
+}
+
+.reasons__title {
+  max-width: 557px;
+  margin-bottom: 19px;
+}
+
+.reasons__text {
+  font-size: 16px;
+  max-width: 570px;
+  margin-bottom: 79px;
+}
+
+.reasons__reason {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  max-width: 570px;
+  padding: 24px 49px 46px 30px;
+}
+
+.reasons__reason:hover {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.reason__title {
+  font-size: 20px;
+  line-height: 150%; /* 30px */
+  margin-bottom: 8px;
+}
+
+.reason__text {
+  max-width: 362px;
+}
+.reason1 {
+  margin-bottom: 56px;
+}
+.reason2 {
+  margin-bottom: 54px;
+}
