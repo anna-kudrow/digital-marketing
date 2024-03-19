@@ -24,7 +24,7 @@ a {
 }
 
 .container {
-  max-width: 1172px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -186,11 +186,32 @@ a {
 .stat {
   background-color: #fafafa;
   max-height: 540px;
+  position: relative;
+  z-index: -3;
+}
+
+.spiral1 {
+  position: absolute;
+  z-index: -1;
+  left: 50px;
+  bottom: 79px;
+}
+
+.spiral2 {
+  position: absolute;
+  z-index: -1;
+  top: 72px;
+  left: 45px;
 }
 
 .stat__inner {
   display: flex;
-  align-items: center;
+  max-width: 1314px;
+  margin: 0 auto 0 425px;
+}
+
+.stat__info {
+  padding-top: 127px;
 }
 
 .stat__title {
@@ -212,13 +233,8 @@ a {
   line-height: normal;
 }
 
-.stat__pic {
-  position: relative;
-  background-color: #fafafa;
-}
-
 .stat__pic img {
-  position: absolute;
+  width: 100%;
 }
 
 .features {
@@ -471,16 +487,124 @@ a {
 .plans__text {
   font-size: 16px;
   text-align: center;
+  margin-bottom: 56px;
 }
 
 .plans__cards {
   display: flex;
+  gap: 35px;
 }
 
 .plans__card-wrapper {
   text-align: center;
 }
 
+.plans__card {
+  max-width: 370px;
+  padding: 63px 85px 70px;
+  background-color: #fff;
+}
+
+.plans__card:hover {
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+  transform: scale(1.1);
+}
+
 .plan__list {
   list-style: none;
+  margin-bottom: 27px;
+}
+
+.plan__item {
+  color: #666;
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%;
+}
+
+.plan__name {
+  color: #000;
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.plan__price {
+  display: flex;
+  color: #000;
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  line-height: 150%;
+  font-style: normal;
+  font-size: 18px;
+  padding-top: 31px;
+}
+
+.number {
+  font-size: 70px;
+}
+
+.term {
+  font-size: 18px;
+  display: block;
+}
+
+.plan__button {
+  border-radius: 50px;
+  background: rgba(242, 88, 34, 0.25);
+  color: #f3602d;
+  padding: 9px 64px 8px;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%;
+  border: none;
+}
+
+.team__container {
+  padding-top: 86px;
+  padding-bottom: 100px;
+}
+
+.team__title {
+  text-align: center;
+  margin-bottom: 12px;
+  line-height: 150%;
+}
+
+.team__text {
+  max-width: 626px;
+  margin: 0 auto;
+  color: #666;
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.member-card {
+  max-width: 270px;
+}
+
+.member__name {
+  margin-bottom: 14px;
+  color: #000;
+  font-family: "Gilroy-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+.member__spec {
+  margin-bottom: 17px;
 }
