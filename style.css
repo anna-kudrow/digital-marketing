@@ -350,7 +350,7 @@ a {
   gap: 29px;
   align-items: center;
   max-width: 570px;
-  padding: 24px 49px 46px 30px;
+  padding: 17px 49px 17px 30px;
 }
 
 .reasons__reason:hover {
@@ -366,9 +366,121 @@ a {
 .reason__text {
   max-width: 362px;
 }
-.reason1 {
-  margin-bottom: 56px;
-}
+
+.reason1,
 .reason2 {
-  margin-bottom: 54px;
+  margin-bottom: 30px;
+}
+
+.counters {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.counters__container {
+  border: 2px solid #eee;
+  padding: 43px 66px 42px 76px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter__number {
+  color: #666;
+  font-family: "Gilroy-Bold";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.counter__text {
+  color: #666;
+  font-family: "Gilroy-SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.speed__container {
+  display: flex;
+  position: relative;
+  padding-bottom: 138px;
+}
+
+.speed__title {
+  margin-top: 138px;
+  line-height: 150%;
+  margin-bottom: 3px;
+}
+
+.speed__text {
+  font-size: 16px;
+  max-width: 458px;
+}
+
+.speed__pic-wrapper {
+  position: absolute;
+  z-index: -2;
+  top: -63px;
+  right: -154px;
+}
+.speed__form {
+  display: flex;
+  margin-top: 55px;
+  gap: 29px;
+}
+
+.submit-button {
+  color: #fffdfd;
+  font-family: "Gilroy-Bold";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 15px 48px 15px 49px;
+}
+
+.speed__input {
+  border: none;
+}
+
+.input__fields {
+  border-radius: 50px;
+  background-color: #eee;
+  padding-left: 20px;
+}
+
+.plans {
+  background-color: #fafafa;
+  padding-top: 87px;
+  padding-bottom: 130px;
+}
+
+.plans__title {
+  text-align: center;
+}
+
+.plans__text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.plans__cards {
+  display: flex;
+}
+
+.plans__card-wrapper {
+  text-align: center;
+}
+
+.plan__list {
+  list-style: none;
 }
