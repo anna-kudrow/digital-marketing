@@ -466,12 +466,27 @@ a {
 
 .speed__input {
   border: none;
+  background-color: #eee;
 }
 
 .input__fields {
   border-radius: 50px;
   background-color: #eee;
   padding-left: 20px;
+}
+
+.url-data {
+  border-right: 1.5px solid #ccc;
+}
+
+.speed__table {
+  border-radius: 50px;
+  background-color: #eee;
+}
+
+.speed__td {
+  padding-left: 20px;
+  width: 200px;
 }
 
 .plans {
